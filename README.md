@@ -1,2 +1,4 @@
 # Stance_detection_with_attention_layer
+Stance detection determines the position or stance of the author towards a specific target or topic mentioned in the text. Automating stance evaluation has been suggested as a valuable first step towards assisting human fact checkers to detect inaccurate claims. Given a news article headline and a news article body, the system estimates the stance of the body towards the headline. The stance label to be assigned could be one of the set: ‘agree’, ‘disagree’, ‘discuss’, or ‘unrelated’
+
 Attempted to develop a single, end to end stance detection system that consists of lexical and similarity features passed through a multi-layer perceptron (MLP) with one hidden layer. Further, have incorporated attention vectors in the initial layers and compared results of both models. 
